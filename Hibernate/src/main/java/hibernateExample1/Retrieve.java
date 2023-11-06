@@ -14,8 +14,7 @@ public class Retrieve {
 		Myclass s1 = ses.get(Myclass.class, 1);
 		System.out.println("Student name: " + s1.getSname());
 
-		ts.commit();
-
+		
 	}
 
 }
